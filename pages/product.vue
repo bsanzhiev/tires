@@ -1,8 +1,6 @@
 <template>
   <v-row justify="center" align="center">
     <v-col class="px-0" cols="12" sm="8" md="6">
-      <SearchBox />
-      <v-divider class="my-6" />
       <ProductCard />
     </v-col>
   </v-row>
@@ -10,10 +8,9 @@
 
 <script>
 import ProductCard from '~/components/ProductCard.vue';
-import SearchBox from '~/components/SearchBox.vue';
 
 export default {
-  name: "IndexPage",
+  name: "ProductPage",
   components: { ProductCard, SearchBox },
   data() {
     return {
