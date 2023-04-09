@@ -9,7 +9,7 @@
       <v-simple-table>
         <template v-slot:default>
           <tbody>
-            <tr v-for="item in desserts" :key="item.name">
+            <tr v-for="item in specs" :key="item.name">
               <td>{{ item.name }}</td>
               <td>{{ item.values }}</td>
             </tr>
@@ -49,7 +49,7 @@ export default {
           src: "https://cdn.vuetifyjs.com/images/carousel/planet.jpg",
         },
       ],
-      desserts: [
+      specs: [
         {
           name: 'Үнэ',
           values: '816,000',
