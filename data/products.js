@@ -1,39 +1,43 @@
 export default [
     {
-      "price": 10.99,
+      "price": 819000,
       "season": "Summer",
-      "radius": 3.5,
-      "wide": 2.0,
-      "height": 4.0,
+      "radius": 20,
+      "wide": 220,
+      "height": 40,
       "id": 1,
-      "model": "ABC123"
+      "model": "Evershine ES660",
+      "quantity"
     },
     {
-      "price": 15.99,
+      "price": 863000,
       "season": "Winter",
-      "radius": 4.0,
-      "wide": 2.5,
-      "height": 3.5,
+      "radius": 20,
+      "wide": 250,
+      "height": 40,
       "id": 2,
-      "model": "DEF456"
+      "model": "Evershine ES918",
+      "quantity": 16
     },
     {
-      "price": 20.99,
-      "season": "Spring",
-      "radius": 3.0,
-      "wide": 1.5,
-      "height": 5.0,
+      "price": 870000,
+      "season": "All",
+      "radius": 20,
+      "wide": 240,
+      "height": 40,
       "id": 3,
-      "model": "GHI789"
+      "model": "Evershine ES988",
+      "quantity": 20
     },
     {
-      "price": 18.99,
-      "season": "Fall",
-      "radius": 2.5,
-      "wide": 3.0,
-      "height": 4.5,
+      "price": 930000,
+      "season": "Summer",
+      "radius": 20,
+      "wide": 270,
+      "height": 45,
       "id": 4,
-      "model": "JKL012"
+      "model": "Evershine ES516",
+      "quantity": 17
     },
     {
       "price": 12.99,
@@ -42,7 +46,8 @@ export default [
       "wide": 2.0,
       "height": 4.5,
       "id": 5,
-      "model": "MNO345"
+      "model": "MNO345",
+      "quantity": 16
     },
     {
       "price": 17.99,
@@ -51,7 +56,8 @@ export default [
       "wide": 3.5,
       "height": 3.0,
       "id": 6,
-      "model": "PQR678"
+      "model": "PQR678",
+      "quantity": 16
     }
   ]
   
