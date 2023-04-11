@@ -1,6 +1,7 @@
 export const state = () => ({
   searchTerm: '',
-  searchResult: []
+  searchResult: [],
+  options: [],
 })
 
 export const mutations = {
@@ -15,4 +16,5 @@ export const mutations = {
 export const actions = {
   search({ commit }, term) {
     const results = {}
-      
+    }
+}
